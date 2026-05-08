@@ -1,0 +1,16 @@
+body {
+    align-items: center;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+li:hover{
+    transform: scale(120%);
+    transition: 400ms;
+}
+
+li:not(hover) {
+    transform: scale(100%);
+    transition: 100ms;
+}
